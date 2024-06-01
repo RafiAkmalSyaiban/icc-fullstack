@@ -11,7 +11,7 @@ const createData = async (payload) => {
     ...payload,
   });
   return data;
-};
+}; 
 
 const deleteData = async (id) => {
   const {data} = await api.delete("/registration/"+ id)
