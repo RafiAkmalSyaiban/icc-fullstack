@@ -1,0 +1,9 @@
+{
+  "main": "server.js",
+  "scripts": {
+    "api:dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "prisma": "^5.14.0"
+  }
+}
